@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test2_validuname_invalidpwd(failed)">
+    <parameter name="password" value="secret_sauc"/>
+    <parameter name="browser" value="edge"/>
+    <parameter name="username" value="standard_user"/>
+    <classes>
+      <class name="topic_ITest.TestresContext2">
+        <methods>
+          <include name="setUp"/>
+          <include name="sdLogin" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- topic_ITest.TestresContext2 -->
+    </classes>
+  </test> <!-- Test2_validuname_invalidpwd(failed) -->
+  <test thread-count="5" name="Test_invaliduname_validpwd(failed)">
+    <parameter name="password" value="secret_sauce"/>
+    <parameter name="browser" value="ff"/>
+    <parameter name="username" value="standard_use"/>
+    <classes>
+      <class name="topic_ITest.TestresContext2">
+        <methods>
+          <include name="setUp"/>
+          <include name="sdLogin" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- topic_ITest.TestresContext2 -->
+    </classes>
+  </test> <!-- Test_invaliduname_validpwd(failed) -->
+  <test thread-count="5" name="Test_invaliduname_invalidpwd(failed)">
+    <parameter name="password" value="secret_sauc"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="username" value="standard_use"/>
+    <classes>
+      <class name="topic_ITest.TestresContext2">
+        <methods>
+          <include name="setUp"/>
+          <include name="sdLogin" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- topic_ITest.TestresContext2 -->
+    </classes>
+  </test> <!-- Test_invaliduname_invalidpwd(failed) -->
+</suite> <!-- Failed suite [Suite] -->
